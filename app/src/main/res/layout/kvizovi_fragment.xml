@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MissingClass">
+
+    <Spinner
+        android:id="@+id/filterKvizova"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaKvizova"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="5dp"
+        app:layout_column="0"
+        app:layout_row="0" />
+
+</androidx.gridlayout.widget.GridLayout>

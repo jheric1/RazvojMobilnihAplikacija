@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/kvizovi"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Kvizovi"
+        />
+    <item
+        android:id="@+id/predmeti"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:title="Upis Predmeta" />
+    <item
+        android:id="@+id/predajKviz"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="Predaj Kviz" />
+    <item
+        android:id="@+id/zaustaviKviz"
+        android:icon="@android:drawable/ic_media_pause"
+        android:title="Zaustavi Kviz" />
+</menu>
